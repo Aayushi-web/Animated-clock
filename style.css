@@ -105,4 +105,11 @@ z-index: 8;
     }
     .circle::before{
 content: '';
+position: absolute;
+width:15px;
+height: 15px;
+background: var(--clr);
+top: -8.5px;
+border-radius: 50%;
+box-shadow: 0 0 20px var(--clr), 0 0 60px var(--clr);
     }
