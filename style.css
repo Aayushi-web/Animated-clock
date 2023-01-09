@@ -22,6 +22,7 @@ align-items: center;
 border-radius: 25px;
 border-top-left-radius: 255px;
 border-top-right-radius: 255px;
+flex-direction: column;
     }
 
     .clock{
@@ -32,7 +33,7 @@ border-top-right-radius: 255px;
         border-radius: 50%
         ;
         box-shadow: 10px 50px 70px rgba(0,0,0,0.25),
-        inset 5px 5px 10px rgba(0,0,0,0.5),inset 5px 5px 20px rgba(0,0,0,0.2),inset 5px 5px 10px rgba(0,0,0,0.5), inset -5px -5px 15px rgba(0,0,0,0.75) ;
+        inset 5px 5px 10px rgba(0,0,0,0.5),inset 5px 5px 20px rgba(255,255,255,0.2),inset 5px 5px 10px rgba(255,255,255,0.5), inset -5px -5px 15px rgba(0,0,0,0.75) ;
         display: flex;
 justify-content: center;
 align-items: center;
@@ -113,3 +114,20 @@ top: -8.5px;
 border-radius: 50%;
 box-shadow: 0 0 20px var(--clr), 0 0 60px var(--clr);
     }
+/* digital  */
+#time{
+    margin-bottom: 40px;
+    display: flex;
+    padding: 10px 20px;
+    font-size: 2em;
+    font-weight: 600;
+    border: 2px solid grey;
+    border-radius: 50px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.20),inset 5px 5px 20px rgba(0,0,0,0.2),inset -5px -5px 15px rgba(0,0,0,0.75);
+}
+#time div{
+    position: relative;
+    width: 60px;
+    text-align: center;
+    font-weight: 500;
+}
